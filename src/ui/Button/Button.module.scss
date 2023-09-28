@@ -1,0 +1,39 @@
+@import '../../main.scss';
+
+.button {
+  cursor: pointer;
+
+  padding: 12px 20px;
+
+  color: #fff;
+
+  border: none;
+  border-radius: 4px;
+  background: none;
+  transition: outline .07s ease-in;
+}
+
+// ----- COLORS -----
+
+.primary {background: #419aff}
+.primary:active {
+  background: #3379ca;
+  outline: 3px solid hsla(212, 100%, 63%, 0.507);
+}
+
+.purple {background: #7474e9}
+.purple:active {background: #6a6acf}
+
+// ----- VARIANTS -----
+
+.primary__outlined {
+  color: #419aff;
+
+  border: 2px solid #419aff;
+}
+
+.primary__outlined:active {
+  color: #3379ca;
+
+  border-color: #3379ca;
+}

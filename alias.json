@@ -1,0 +1,6 @@
+{
+  "app": "src/app/",
+  "store": "src/store/",
+  "ui": "src/ui/",
+  "@nurs/Button": "src/ui/Button/Button"
+}
